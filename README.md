@@ -1,4 +1,4 @@
-##Features
+## Features
 - Versioning done with GitVersion.
 - Can build via AppVeyor and Azure Devops Pipelines.
 - All projects will be SourceLinked to github thanks to `directory.props` file.
