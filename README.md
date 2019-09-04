@@ -8,7 +8,6 @@
 - Create your solution (.sln) and projects in the `/src` directory.
 - Make sure global.json has the right version of the .net sdk that you require.
 - For AppVeyor builds, update AppVeyor.yml:
-    - path to solution
     - dotnet sdk version (currently set to install latest pre-release).
     - Now you can add to AppVeyor.
 - For Azure Devops builds:
