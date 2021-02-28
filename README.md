@@ -7,6 +7,8 @@
 - Clone this repo, then push to your own origin.
 - Create your solution (.sln) and projects in the `/src` directory.
 - Make sure global.json has the right version of the .net sdk that you require.
+- If you want to run `dotnet-format` and `gitversion` tools locally, then install them by running the following command in the repo directory:
+    `dotnet tool restore`
 - For AppVeyor builds, update AppVeyor.yml:
     - dotnet sdk version (currently set to install latest pre-release).
     - Now you can add to AppVeyor.
